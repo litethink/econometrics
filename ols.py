@@ -1,4 +1,7 @@
-
+"""
+Ｃ ＝α＋β Ｙ ｄ ＋ε
+弄清楚谁是自变量谁是因变量
+"""
 import numpy as np
 import statsmodels.api as sm
 #收入
