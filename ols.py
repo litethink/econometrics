@@ -17,7 +17,7 @@ sm.add_constant(x)
 c_x = sm.add_constant(x)
 result = (sm.OLS(y,c_x)).fit()
 result.summary()
-
+"""
                             OLS Regression Results                            
 ==============================================================================
 Dep. Variable:                      y   R-squared:                       0.850
@@ -43,3 +43,4 @@ Kurtosis:                       2.060   Cond. No.                     4.57e+03
 
 阿尔法截距 131.8368
 贝塔斜率 0.8663 
+"""
